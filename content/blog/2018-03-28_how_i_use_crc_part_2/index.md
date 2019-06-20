@@ -3,7 +3,6 @@ title: How I use CRC (Class Responsibility Collaboration) Cards every day (Part 
 date: "2018-03-28T10:00:00.000Z"
 description: Even more examples of how to use CRC (Class Responsibility Collaboration) cards in your day to day work
 ---
-
 In my last article [How I use CRC (Class Responsibility Collaboration) Cards every day (Part 1)](https://www.defmyfunc.com/2018-03-23_how_i_use_crc_everyday/) I explained how to introduce the use of CRC cards into your processes by the back door. In this article I am going to explain how to start using the ‘CRC Family’ of techniques to do ‘just enough’ upfront modelling and designing to give your software development process predictability and sustainability.
 
 I’ll hopefully also explain why I think that whilst the ‘CRC Family’ of techniques is no silver bullet, it may be one of the single biggest improvements you can make to your existing process. Done properly, it dramatically improves the alignment and understanding of your software throughout your cross functional team and by extension, across your organisation through all roles, leading to more predictable, sustainable software delivery.

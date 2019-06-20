@@ -3,7 +3,6 @@ title: On T(est)DD, M(onitering)DD, O(bservability)DD and H(ypothesis)DD
 date: "2019-03-05T10:00:00.000Z"
 description: A summary of my thoughts on TDD (Test Driven Development), MDD (Monitering Driven Development), ODD (Observability Driven Development) & HDD (Hypothesis Driven Development). Phew.
 ---
-
 Technology is now once again helping us automate what the best businesses and teams have been doing manually for a while (perhaps without knowing it!). With that ability to make systems that are ‘Observable’ we are now once again able to move TDD one step closer to our users. We should leap at the chance :)
 
 As an ardent TDD-er I find the current conversation around Observability and our ability to automate and drive value from this especially intriguing. Whilst there are probably lots of people talking about it heres one twitter link that explains things well:

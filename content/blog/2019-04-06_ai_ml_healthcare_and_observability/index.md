@@ -3,8 +3,6 @@ title: AI/ML, Healthcare and Observability
 date: "2019-04-06T10:00:00.000Z"
 description: Some thoughts based on my recent exeperience in the healthcare domain
 ---
-
-
 As AI/ML becomes more and more fundamental to how we treat patients we need new ways of understanding what went wrong and why when the worst happens and people ‘blame it on the algorithm’. This isn’t a good enough answer for social media as those organisations are finding out, and it isn’t good enough for healthcare.
 
 I am lucky enough to currently working in the healthcare domain, and have had some previous experience in AI/ML projects as well, although I am no expert in either and have not done anything as of yet that mixes the two.
