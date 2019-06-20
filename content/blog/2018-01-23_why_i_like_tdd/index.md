@@ -4,8 +4,6 @@ date: "2018-01-23T10:00:00.000Z"
 description: A short article on why I like Test Driven Development (TDD)
 ---
 
-# Why I like Test Driven Development
-
 This may be stating the obvious but as a ThoughtWorker, I am obviously a massive proponent of Test Driven Development.
 
 There are probably as many reasons ThoughtWorks espouse this technique as there are ThoughtWorkers and each person has their own reasons and or experience that has lead them to this path (or driven them from it!) and I wanted to write a bit about mine.
