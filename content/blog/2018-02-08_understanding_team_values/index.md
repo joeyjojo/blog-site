@@ -9,8 +9,6 @@ In a simple world, everyone would have the same values in the same priority orde
 
 I often run this meeting (or a variation on) to try and get common alignment on the qualities and values that we think a ‘good one’ of the thing we are doing are so that we can fairly and collaboratively evaluate any given solution against those values and qualities.
 
-*The views in this article are my own and are not necessarily endorsed by my employer.*
-
 ## The Aim
 
 The aim of this session is to generate a set of team values for a specific area of their work that is important to the team.
