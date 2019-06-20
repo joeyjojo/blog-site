@@ -47,3 +47,5 @@ I think is a really succinct way of understanding the difference.
 The “Procedural Era” has one disctinct advantage over the ML era. Its basis in law. Humans can provide explanations, that can be discovered after the fact.
 
 Until we can provide observability of the decisions being made by increasingly autonomous software and explain those decisions we won’t have accountability, which is vital to patient well being.
+
+*The views in this article are my own and are not necessarily endorsed by my employer.*

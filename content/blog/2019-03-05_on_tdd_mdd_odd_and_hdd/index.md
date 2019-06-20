@@ -51,3 +51,5 @@ The drive towards more ‘Lean’ business models (I don’t profess to know a l
 Technology. We are now able to create highly observable systems that are within the financial grasp of most business and teams if we wish. This is something that hasn’t really been possible before.
 
 Technology is now once again helping us automate what the best business and teams have been doing manually. With that ability to make systems that are ‘Observable’ we are now once again able to move TDD one step closer to our users. We should leap at the chance :)
+
+*The views in this article are my own and are not necessarily endorsed by my employer.*
