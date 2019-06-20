@@ -58,7 +58,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `@defmyfunc blog`,
-        short_name: `GatsbyJS`,
+        short_name: `@defmyfunc`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
