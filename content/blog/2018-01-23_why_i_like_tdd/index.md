@@ -1,3 +1,8 @@
+---
+title: Why I like Test Driven Development
+date: "2018-01-23T10:00:00.000Z"
+description: A short article on why I like Test Driven Development (TDD)
+---
 
 # Why I like Test Driven Development
 
@@ -26,7 +31,3 @@ At the end of the day, TDD is obviously ‘just a tool’ and should be used whe
 Happy TDD-ing (if you want to).
 
 *The views in this article are my own and are not necessarily endorsed by my employer.*
-
-Want to work with us?
-
-[https://www.thoughtworks.com/careers](https://www.thoughtworks.com/careers)
