@@ -2,6 +2,7 @@
 title: Serverless Deployment Patterns and Techniques
 date: "2019-05-20T10:00:00.000Z"
 description: Understanding the best way to deploy serverless architectures and solutions
+published: true
 ---
 > This article originally appeared on medium at https://medium.com/@defmyfunc/serverless-deployment-patterns-and-techniques-442e7af6e4b0
 

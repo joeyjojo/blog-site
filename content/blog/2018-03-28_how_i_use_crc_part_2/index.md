@@ -2,6 +2,7 @@
 title: How I use CRC (Class Responsibility Collaboration) Cards every day (Part 2)
 date: "2018-03-28T10:00:00.000Z"
 description: Even more examples of how to use CRC (Class Responsibility Collaboration) cards in your day to day work
+published: true
 ---
 > This article originally appeared on medium at https://medium.com/@defmyfunc/how-i-use-crc-class-responsibility-collaboration-cards-every-day-part-2-8f9a6f79f7c2
 

@@ -2,6 +2,7 @@
 title: Releasing value in software development
 date: "2018-11-22T10:00:00.000Z"
 description: An overview of different approaches to breaking down problems into slices
+published: true
 ---
 > This article originally appeared on medium at https://medium.com/@defmyfunc/releasing-value-in-software-development-184647f595ab
 

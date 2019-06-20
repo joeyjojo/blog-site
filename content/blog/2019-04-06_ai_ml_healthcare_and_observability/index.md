@@ -2,6 +2,7 @@
 title: AI/ML, Healthcare and Observability
 date: "2019-04-06T10:00:00.000Z"
 description: Some thoughts based on my recent exeperience in the healthcare domain
+published: true
 ---
 > This article originally appeared on medium at https://medium.com/@defmyfunc/ai-ml-healthcare-and-observability-5d986e4dc9a6
 

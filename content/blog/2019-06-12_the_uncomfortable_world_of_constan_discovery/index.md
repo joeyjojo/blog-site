@@ -2,6 +2,7 @@
 title: The uncomfortable world of constant discovery or the difference between Delivery and Product teams
 date: "2019-06-12T10:00:00.000Z"
 description: A look at the differences between 'Product' teams and 'Delivery' teams
+published: true
 ---
 > This article originally appeared on medium at https://medium.com/@defmyfunc/the-uncomfortable-world-of-constant-discovery-or-the-difference-between-delivery-and-product-teams-7cd853872551
 

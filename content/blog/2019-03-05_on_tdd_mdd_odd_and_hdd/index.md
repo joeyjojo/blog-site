@@ -2,6 +2,7 @@
 title: On T(est)DD, M(onitering)DD, O(bservability)DD and H(ypothesis)DD
 date: "2019-03-05T10:00:00.000Z"
 description: A summary of my thoughts on TDD (Test Driven Development), MDD (Monitering Driven Development), ODD (Observability Driven Development) & HDD (Hypothesis Driven Development). Phew.
+published: true
 ---
 > This article originally appeared on medium at https://medium.com/@defmyfunc/on-t-est-dd-m-onitering-dd-o-bservability-dd-and-h-ypothesis-dd-5eb6beb7b64b
 

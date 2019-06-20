@@ -2,6 +2,7 @@
 title: Understanding Team Values
 date: "2018-02-08T10:00:00.000Z"
 description: A description of my 'go to' meeting for understanding the differing values across a team in a low trust situation
+published: true
 ---
 > This article originally appeared on medium at https://medium.com/@defmyfunc/understanding-team-values-and-building-a-strategy-eee9f18be742
 
