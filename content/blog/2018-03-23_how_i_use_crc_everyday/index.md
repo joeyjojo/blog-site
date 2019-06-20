@@ -5,6 +5,8 @@ description: Some examples of how to use CRC (Class Responsibility Collaboration
 ---
 On some discussion with colleagues I realised that a technique I took for granted is often not used by others so I wanted to do a write up of how I use them to further the general ‘make my team good at the software’ remit.
 
+You can see Part 2 of my thoughts on CRC cards here [How I use CRC (Class Responsibility Collaboration) Cards every day (Part 2)](https://www.defmyfunc.com/2018-03-28_how_i_use_crc_part_2/). 
+
 I first read about these in the White XP book but I didn’t really use them until I was introduced to them by Kevin Rutherford when he worked with us at the BBC as part of the Software Craftsmanship program we had there. So massive props to him ([https://silkandspinach.net/](https://silkandspinach.net/)).
 
 ## What are CRC Cards?
