@@ -3,6 +3,8 @@ title: Understanding Team Values
 date: "2018-02-08T10:00:00.000Z"
 description: A description of my 'go to' meeting for understanding the differing values across a team in a low trust situation
 ---
+> This article originally appeared on medium at https://medium.com/@defmyfunc/understanding-team-values-and-building-a-strategy-eee9f18be742
+
 As a consultant we often have to go into a situation whereby we don’t understand peoples motiviation we only have the solution they are proposing. One to one, this can be fairly easily resolved, however, in teams, with team dynamics, this can be harder to get to the truth of and find agreement on.
 
 In a simple world, everyone would have the same values in the same priority order and making decisions would be easy because everyone would be in agreement and understand why trade offs have been made, either this way or that.

@@ -3,6 +3,8 @@ title: Serverless Deployment Patterns and Techniques
 date: "2019-05-20T10:00:00.000Z"
 description: Understanding the best way to deploy serverless architectures and solutions
 ---
+> This article originally appeared on medium at https://medium.com/@defmyfunc/serverless-deployment-patterns-and-techniques-442e7af6e4b0
+
 As serverless has evolved and grown there have been a plethora of architectural patterns growing around to support the problems we are all trying to solve. Key to a strong architectural pattern is an understanding of how those pieces are broken up and deployed to live. Without that, the pattern is useless. I’ll explain the patterns I’ve tried before and which one is my current default approach.
 
 Its very AWS specific, but I think the core tenets can be applied to any serverless deployment. Sorry about that if its a problem.

@@ -3,6 +3,7 @@ title: Why I like Test Driven Development
 date: "2018-01-23T10:00:00.000Z"
 description: A short article on why I like Test Driven Development (TDD)
 ---
+> This article originally appeared on medium at https://medium.com/@defmyfunc/why-i-like-test-driven-development-a8b41c4dec6f
 
 This may be stating the obvious but as a ThoughtWorker, I am obviously a massive proponent of Test Driven Development.
 

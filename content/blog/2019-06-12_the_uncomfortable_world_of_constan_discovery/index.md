@@ -3,6 +3,8 @@ title: The uncomfortable world of constant discovery or the difference between D
 date: "2019-06-12T10:00:00.000Z"
 description: A look at the differences between 'Product' teams and 'Delivery' teams
 ---
+> This article originally appeared on medium at https://medium.com/@defmyfunc/the-uncomfortable-world-of-constant-discovery-or-the-difference-between-delivery-and-product-teams-7cd853872551
+
 As “agile” and “product” development permeates more and more of mainstrain software development, I wanted to write about the prevalance of two team archetypes that appear (when things are functioning well… dysfunction is a whole other topic!). Outwardly, they appear to be made of similar roles, but they often end up with very different outlooks to delivering that software and are useful in different situations. This can make comparison hard and explaining the difference between the two difficult and less easy to understand.
 
 In my experience during a ‘transformation’ (digital/agile/product/etc) there are many stages organisations, teams and individuals go through on their journey. On that journey, to what I would describe as a ‘product’ teams, a lot of teams and organisations get stuck in ‘delivery’ teams.

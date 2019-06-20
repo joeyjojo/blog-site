@@ -3,6 +3,8 @@ title: Releasing value in software development
 date: "2018-11-22T10:00:00.000Z"
 description: An overview of different approaches to breaking down problems into slices
 ---
+> This article originally appeared on medium at https://medium.com/@defmyfunc/releasing-value-in-software-development-184647f595ab
+
 The ability to appropriately slice up work is integral to solving problems in software development today. At a macro level, where we often talk about ‘big bang’ releases vs continuous delivery, at a micro level with ‘trunk/master development’ vs ‘pull requests’ and every thing inbetween. It goes without saying that I have a somewhat developer centric view of this, but it applies to every member of the team. So why, in our down time (whatever that means to you! :) ), do we not practice this incredibly valuable skill?
 
 I am not going to attempt to answer that question. Merely pose it as a ponderence. :S :)
