@@ -73,3 +73,5 @@ Regardless of whether you belive me or not enough to try I think CRC is one of t
 It also does the same for complexity. Allowing the team to understand the complex parts of their system(s) as well as allowing the team to express what is and isn’t complex for them, abstracting things at the right level, for them.
 
 In a future article I’ll talk about how these techniques (and others) relate to the [cynefin framework](https://en.wikipedia.org/wiki/Cynefin_framework) to help teams make decisions.
+
+*The views in this article are my own and are not necessarily endorsed by my employer.*
