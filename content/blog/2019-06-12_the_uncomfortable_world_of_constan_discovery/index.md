@@ -76,7 +76,9 @@ People are often paid different amounts depending on the role within the team an
 
 They have complete control of their own backlog. The backlog is no larger than a months work and it is relentlessy pruned and prioritised. Because of this retrospectives focus on what this team can change and actions are prioritised against all other work. The roadmap is only relatively certain for the next 3 months. The roadmap consists of a series of ‘bets’ rather than requirements and it is understood that each ‘bet’ can be scrapped as its picked up by the team.
 
-Teams are responsible for the service design and delivery of an end to end process or user journey with no handovers to other teams in that process. This can be solved using things
+Teams are responsible for the service design, delivery and operation of an end to end process or user journey with no handovers to other teams in that process. A deep understanding or production is encouraged across the team, and the events that happen in production regularly help form the backlog.
+
+The team is free to use solutions built by them, other teams within the organisation or external providers.
 
 At particularly gnarly points in time, especially were something is not very well understood the team often ‘mobs’, this can be on any type of task not just “typey-typey”. Alignment of vision is valued in the long and short term, the team actively work to compromise the tradeoffs between upfront design and delivery. Upfront design is mostly done ‘Just In Time’ and is immediately followed by attempted delivery of that design. This alignment is valued by the team as a way to achieve autonomy. Any technical debt can be assigned value in the same way as a feature and so can be prioritised accordingly.
 
