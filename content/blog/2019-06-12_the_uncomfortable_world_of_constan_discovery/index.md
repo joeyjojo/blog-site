@@ -36,13 +36,13 @@ Product teams can take responsibility for the whole “double diamond”
 
 This can be quite an uncomfortable step for an organisation to take on its transformation journey. This is because all of a sudden we are facing into the chaos of the unknown and forcing the organisation to deal with the fact that a lot of what it did before was theatre to give the illusion of certainty. However, this step is the most important and the most valuable to organisations.
 
+Within a genuine product team, these diamonds should be happening constantly. At a micro level within tickets, at the macro level on the roadmap and in the middle with delivery of a feature.
+
 Often we describe this as “becoming user focussed”.
 
 Good Product teams understand what their user wants to achieve and create a holistic process sympathetic to them and their needs as well as those of the organisation.
 
 ![Product teams focus on what their user wants to achieve](./1_SntYEL4LdHV7LOm3kAR1Ng.png)
-
-When I work with clients I often have to split these two diamonds up into “Discovery” and “Inception” phases. This is to allow for the necessary cross pollination of skills and domain expertise to happen. However, within a genuine product team, these diamonds should be happening constantly. At a micro level within tickets, at the macro level on the roadmap and in the middle with delivery of a feature.
 
 If we are using something like a Lean Value Tree to understand our work, then its important that a Product team can get through a “bet” in around a month.
 
