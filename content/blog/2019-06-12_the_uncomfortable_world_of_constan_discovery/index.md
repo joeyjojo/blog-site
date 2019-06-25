@@ -22,7 +22,7 @@ The first step on your journey is probably to move a certain population of your 
 
 If a team stays in this phase or this is considered the “end” of the transformation things can get very difficult. The Delivery team don’t really understand why they are building what they are building, even if they become very good at building it. Pressure to blur the boundary back towards the right increases so that teams don’t ‘build the wrong thing’ again so processes are setup and theatre between these two sides increases. The “define strategy” phase can happen months if not years before the “execute solution” phase meaning more and more boundary crossing and more and more pain when the solution is actually explored.
 
-![How pain effects the Delivery team when the two diamonds are seperated](./1_mCJ4nxDZKtjbm8O_ywvc7w.png)
+![How pain effects the Delivery team when the two diamonds are separated](./1_mCJ4nxDZKtjbm8O_ywvc7w.png)
 
 Good Delivery teams also understand the systems they build and how they fit into processes. They understand what the system is trying to achieve for their user. They can run, maintain and expand those systems.
 
