@@ -24,7 +24,7 @@ If a team stays in this phase or this is considered the “end” of the transfo
 
 ![How pain effects the Delivery team when the two diamonds are separated](./1_mCJ4nxDZKtjbm8O_ywvc7w.png)
 
-Good Delivery teams also understand the systems they build and how they fit into processes. They understand what the system is trying to achieve for their user. They can run, maintain and expand those systems.
+As the silos are broken (intentionally or not), good Delivery teams also work to understand the systems they build and how they fit into processes. They understand what the system is trying to achieve for their user. They can run, maintain, operate and expand those systems.
 
 ![Delivery teams understand how the user is affected by their solutions](./1_rDO1wGhNKM4m5ErF3Cl06A.png)
 
