@@ -16,7 +16,7 @@ Firstly, lets take a model for the activities involved in defining and deliverin
 
 ### Delivery Teams
 
-The first step on your journey is probably to move a certain population of your users from role based teams to a form of cross functional team. What I would describe as a Delivery team. The first roles on this journey are often Delivery, Dev and Test followed by BAs, Product then UX. Which means you have a team who can effectively execute a solution.
+The first step on your journey is probably to move a certain population of your users from role based teams to a form of [cross functional team](https://en.wikipedia.org/wiki/Cross-functional_team). What I would describe as a Delivery team. The first roles on this journey are often Delivery, Dev and Test. BAs often come next, and perhaps, a type of Product role. Operations may or may not to some degree integrate. Often some roles end up shared across multiple teams, ie UX, Architecture, Subject Matter Experts. This means you have a team who can effectively execute a solution.
 
 ![Delivery teams can effectively work in the ‘execute solution’ phase](./1_X1G0Z3eI9TWdul3kP5R77Q.png)
 
