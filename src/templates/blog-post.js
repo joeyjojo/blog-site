@@ -73,14 +73,14 @@ class BlogPostTemplate extends React.Component {
 export default BlogPostTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query BlogPostBySlug($slug: String!, $relativePath: String!, $repositoryName: String!, $repositoryOwner: String!) {
     site {
       siteMetadata {
         title
         author
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(fields: {slug: {eq: $slug}}) {
       id
       excerpt(pruneLength: 160)
       html
@@ -89,6 +89,27 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         published
+      }
+    }
+    github {
+      repository(name: $repositoryName, owner: $repositoryOwner) {
+        name
+        ref(qualifiedName: "refs/heads/master") {
+          id
+          target {
+            ... on GitHub_Commit {
+              id
+              history(first: 1, path: $relativePath) {
+                edges {
+                  node {
+                    id
+                    committedDate
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   }

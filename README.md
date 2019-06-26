@@ -6,6 +6,8 @@ This blog site is based on [gatsbyjs](https://www.gatsbyjs.org)
 ## 🚀 Quick start
 
 1. Clone
+1. Configure Environment Variables:
+    - GITHUB_TOKEN
 1. Run `gatsby develop`
 1.  **Open the source code and start editing!**
 

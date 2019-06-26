@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `@defmyfunc blog`,
@@ -74,6 +78,17 @@ module.exports = {
         trackingId: "UA-142466951-1",
         anonymize: true,
         respectDNT: true,
+      },
+    },
+    {
+      resolve: `gatsby-source-graphql`,
+      options: {
+        fieldName: `github`,
+        typeName: `GitHub`,
+        url: `https://api.github.com/graphql`,
+        headers: {
+          Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
+        },
       },
     },
   ],
