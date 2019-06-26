@@ -44,7 +44,7 @@ Good Product teams understand what their user wants to achieve and create a holi
 
 ![Product teams focus on what their user wants to achieve](./1_SntYEL4LdHV7LOm3kAR1Ng.png)
 
-If we are using something like a Lean Value Tree to understand our work, then its important that a Product team can get through a “bet” in around a month.
+If we are using something like a [Lean Value Tree](https://www.slideshare.net/steve236/lean-value-tree-overview-82783795) to understand our work, then its important that a Product team can get through a [“bet”](https://medium.com/@iamted/why-should-technologists-care-about-belief-96f8ef6377d1) in around a month. To achieve this, quality continuous delivery, high levels of observability and effective ways to understand their users are essential.
 
 ![From definition to execution in less than a month](./1_inbPJSFfNbZq_kBYpSaEjA.png)
 
@@ -54,7 +54,11 @@ This means significant differences to how most organisations understand and brea
 
 Transformation is a constant journey, and so its useful to be able to understand where you are and where you want to be. If you find your self ‘stuck’ in a Delivery team and unable to change things its important to understand whether this is intentional or by accident. You can then start pushing in the direction you wish to go.
 
-In reality Delivery teams should be highly transitional (but often aren’t) and should either be working towards becoming a Product team (because the situation is such that this is valuable) or if there work has genuinely already deeply understood be working to understand how they can transfer their work to a commodity provider.
+In reality Delivery teams should be highly transitional (but often aren’t).
+
+Moving from waterfall teams to delivery teams is often the "easy" part of the transformation journey. These people are often desperate to work together and realise the benefit as they are much more traditional "delivery" roles anyway. This can also be achieved without significant change to quality practices.
+
+However, without the required change in practices, the move to a product team will never happen and he transformation will stagnate and frustrate. The move to a product team is generally a lot harder for the organisation as it can involve transitioning people who have not been close to delivery for a long time and a significant change in practices and techniques.
 
 ## Appendix
 
