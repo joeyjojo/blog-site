@@ -6,8 +6,10 @@ This blog site is based on [gatsbyjs](https://www.gatsbyjs.org)
 ## 🚀 Quick start
 
 1. Clone
-1. Configure Environment Variables:
+1. Configure environment variables (you can use `dotenv`):
     - GITHUB_TOKEN
+    - REPOSITORY_NAME
+    - REPOSITORY_OWNER
 1. Run `gatsby develop`
 1.  **Open the source code and start editing!**
 
