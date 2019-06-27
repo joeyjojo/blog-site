@@ -54,8 +54,9 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in Manchester, UK. Currently at ThoughtWorks.
-        {` `}
+        Written by <strong>{author}</strong> who lives and works in Manchester,
+        UK. Currently at{" "}
+        <a href={`https://www.thoughtworks.com`}>ThoughtWorks</a>.{` `}
         <a href={`https://twitter.com/${social.twitter}`}>
           You should follow him on Twitter
         </a>
