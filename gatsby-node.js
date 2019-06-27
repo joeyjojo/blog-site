@@ -43,7 +43,7 @@ exports.createPages = ({ graphql, actions }) => {
         component: blogPost,
         context: {
           slug: post.node.fields.slug,
-          relativePath: `content/blog${post.node.fields.slug}index.md`,
+          relativePath: `content/blog${post.node.fields.slug}`,
           repositoryName: process.env.REPOSITORY_NAME,
           repositoryOwner: process.env.REPOSITORY_OWNER,
           previous,
