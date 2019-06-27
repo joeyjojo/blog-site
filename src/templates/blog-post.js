@@ -77,7 +77,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
           <li>
-            {next && (
+            {next && next.frontmatter.published && (
               <Link to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
               </Link>
