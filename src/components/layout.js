@@ -67,7 +67,9 @@ class Layout extends React.Component {
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>, Hosted on 
           {` `} 
-          <a href="https://www.netlify.com">Netlify</a>.
+          <a href="https://www.netlify.com">Netlify</a>, Source code on
+          {` `} 
+          <a href="https://www.github.com/joeyjojo/blog-site">GitHub</a>.
         </footer>
       </div>
     )
