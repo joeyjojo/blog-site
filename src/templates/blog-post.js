@@ -18,6 +18,8 @@ class BlogPostTemplate extends React.Component {
     const publishedDateRendered = DateTime.fromISO(
       post.frontmatter.date
     ).toLocaleString(DateTime.DATETIME_MED)
+    const lastCommit = github.repository.ref.target.history.edges[0]
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
@@ -42,17 +44,16 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-        <PostPublishingInformation
-          publishedDate={post.frontmatter.date}
-          lastEditedDate={
-            github.repository.ref.target.history.edges[0].node.committedDate
-          }
-          lastEditSnippet={
-            github.repository.ref.target.history.edges[0].node.message
-          }
-          repositoryURL={github.repository.url}
-          relativePath={this.props.pageContext.relativePath}
-        />
+        {lastCommit && (
+          <PostPublishingInformation
+            publishedDate={post.frontmatter.date}
+            lastEditedDate={lastCommit.node.committedDate}
+            lastEditSnippet={lastCommit.node.message}
+            repositoryURL={github.repository.url}
+            relativePath={this.props.pageContext.relativePath}
+          />
+        )}
+
         <hr
           style={{
             marginBottom: rhythm(1),
