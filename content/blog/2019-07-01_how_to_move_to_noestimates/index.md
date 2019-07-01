@@ -1,6 +1,6 @@
 ---
 title: "How to move to #noestimates" 
-date: "2019-06-20T10:00:00.000Z"
+date: "2019-07-01T20:40:00.000Z"
 description: "Moving to #noestimates and relying on forecasting can be difficult for any person, team or organisation. Here I describe one way I go about it"
 published: true
 ---
