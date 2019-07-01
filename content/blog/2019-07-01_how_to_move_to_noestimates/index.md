@@ -2,6 +2,7 @@
 title: "How to move to #noestimates" 
 date: "2019-06-20T10:00:00.000Z"
 description: "Moving to #noestimates and relying on forecasting can be difficult for any person, team or organisation. Here I describe one way I go about it"
+published: true
 ---
 So you want to do #noestimates but some people in your organisation can't live without their estimates... how do you convince them otherwise?
 
