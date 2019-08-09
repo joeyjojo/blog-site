@@ -2,7 +2,7 @@
 title: "Being a little more QA" 
 date: "2019-08-09T13:24:00.000Z"
 description: "How the future of software development is becoming more QA"
-published: false
+published: true
 ---
 As a consultant, after the stakeholder shenanigans have been completed, often the first thing I do is go talk to the QA community. The health of the QA community within an organisation is often a key indicator as to whether the organisation is going to make it through whatever we are being asked to do. QAs regardless of whether they are constrained by the system in which they operate, have to understand the dependencies and processes that gets working software to the user, even in the most siloed of organisations. 
 
