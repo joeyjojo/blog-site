@@ -38,6 +38,6 @@ We have to get better as developers at this key skill of making the systems and 
 
 This is only going to get more apparent as key technical enablers allow Machine Learning generated systems to become more and more prevalent. [As I wrote here](https://www.defmyfunc.com/2019-04-06_ai_ml_healthcare_and_observability), if we can't make these systems and services observable, we can't make these systems and services *accountable* which is going to be a key requirement of any decision an algorithm makes.
 
-Its why I love tools like [Honeycomb.io](https://www.honeycomb.io) and as we really start to dig into what this means for our profession and the future of observability tooling.
+Its why I love tools like [Honeycomb.io](https://www.honeycomb.io) and the changes it will bring as we really start to dig into what this means for our profession and the future of observability tooling.
 
 I wrote this because of the inclusion of [Wardley Maps and Honeycomb.io](https://twitter.com/defmyfunc/status/1121094326745010176?s=20) in the [ThoughtWorks Technology Radar](https://www.thoughtworks.com/radar) and wanted to start articulating why I find them valuable.
