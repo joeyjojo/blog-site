@@ -7,7 +7,7 @@ module.exports = {
     title: `@defmyfunc blog`,
     author: `@defmyfunc`,
     description: `Blog for @defmyfunc`,
-    siteUrl: `https://defmyfunc.netlify.com/`,
+    siteUrl: `https://www.defmyfunc.com/`,
     social: {
       twitter: `defmyfunc`,
     },
@@ -57,7 +57,7 @@ module.exports = {
       options: {
         name: `@defmyfunc blog`,
         short_name: `@defmyfunc`,
-        start_url: `/`,
+        start_url: ``,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
