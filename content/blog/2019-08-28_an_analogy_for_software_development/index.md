@@ -1,8 +1,8 @@
 ---
-title: "Using metaphor to describe software development" 
-date: "2019-08-09T13:24:00.000Z"
-description: "On 'Why software development is like running a restaurant' and 'What metaphor do you use to usefully describe the act of software development?'"
-published: false
+title: "An analogy to describe software development" 
+date: "2019-08-28T15:03:00.000Z"
+description: "On 'Why software development is like running a restaurant' and 'What analogy do you use to usefully describe the act of software development?'"
+published: true
 ---
 In my twitter feed recently, I have noticed a spate of analogies, metaphors and similes to describe software development (eg. https://twitter.com/jessitron/status/1165787547764551680) and so I wanted to share the analogy I have been using for the past few years. Most of the analogies I have seen have focused on allowing for the distinct difference between building a "traditional factory made manufactured product" and the concept of "constant product development" within software delivery, where you are constantly discovering and adapting "the product" to user need. 
 
