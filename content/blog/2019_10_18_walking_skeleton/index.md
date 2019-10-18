@@ -1,8 +1,8 @@
 ---
 title: "Integration, integration, integration. An introduction to walking skeletons in the enterprise" 
-date: "2019-08-28T15:03:00.000Z"
+date: "2019-10-18T23:21:00.000Z"
 description: "In my experience, a decent walking skeleton is the most underused technique when teams are trying to de-risk software delivery. In this article I attempt to articulate its value so you want to use it more :)"
-published: false
+published: true
 ---
 
 If I was to pick out what I think the single biggest difference between "Enterprise" and "Non Enterprise" software development, it would probably be the amount of integration that is necessary to achieve success. Integration comes in many forms, not just other systems, but integration across people and process as well. 
