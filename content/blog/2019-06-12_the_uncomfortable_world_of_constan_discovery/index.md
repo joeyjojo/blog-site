@@ -16,7 +16,7 @@ Firstly, lets take a model for the activities involved in defining and deliverin
 
 ### Delivery Teams
 
-The first step on your journey is probably to move a certain population of your users from role based teams to a form of [cross functional team](https://en.wikipedia.org/wiki/Cross-functional_team). What I would describe as a Delivery team. The first roles on this journey are often Delivery, Dev and Test. BAs often come next, and perhaps, a type of Product role. Operations may or may not to some degree integrate. Often some roles end up shared across multiple teams, ie UX, Architecture, Subject Matter Experts. This means you have a team who can effectively execute a solution.
+The first step on your journey is probably to move a certain population of your users from role based teams to a form of [cross functional team](https://en.wikipedia.org/wiki/Cross-functional_team). What I would describe as a Delivery team. The first roles on this journey are often Delivery, Dev and Test. BAs often come next, and perhaps, a type of Product role. Operations may or may not to some degree integrate. A lot of organisations get to this point by focussing on "DevOps". Often some roles end up shared across multiple teams, ie UX, Architecture, Subject Matter Experts. This means you have a team who can effectively execute a solution.
 
 ![Delivery teams can effectively work in the ‘execute solution’ phase](./1_X1G0Z3eI9TWdul3kP5R77Q.png)
 
@@ -24,7 +24,7 @@ If a team stays in this phase or this is considered the “end” of the transfo
 
 ![How pain effects the Delivery team when the two diamonds are separated](./1_mCJ4nxDZKtjbm8O_ywvc7w.png)
 
-As the silos are broken (intentionally or not), good Delivery teams also work to understand the systems they build and how they fit into processes. They understand what the system is trying to achieve for their user. They can run, maintain, operate and expand those systems.
+As the silos are broken (intentionally or not), good Delivery teams also work to understand the systems they build and how they fit into processes. They understand what the system is trying to achieve for their user. They can run, maintain, operate and expand those systems, they may become a good "DevOps" team.
 
 ![Delivery teams understand how the user is affected by their solutions](./1_rDO1wGhNKM4m5ErF3Cl06A.png)
 
