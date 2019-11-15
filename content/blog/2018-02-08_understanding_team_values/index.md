@@ -64,9 +64,9 @@ For example, a hypothetical list might be:
 
 * Everything is versioned controlled
 
-4. Once everyone has done it everyone gets up and puts them on the board under their name. If they feel they can, they should prioritise them.
+Once everyone has done it everyone gets up and puts them on the board under their name. If they feel they can, they should prioritise them.
 
-5. In turn, everyone stands by their values and explains what those values mean to them.
+In turn, everyone stands by their values and explains what those values mean to them.
 
 The following is important…
 
