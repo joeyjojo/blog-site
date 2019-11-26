@@ -1,7 +1,7 @@
 ---
 title: "Things I wish I'd been told about engineering management" 
 date: "2019-11-26T15:22:27.000Z"
-description: "All management is hard, and whilst its been talked about a lot, these are things (on top of everything else!) I wish I'd been told"
+description: "All management is hard, and whilst you get told a lot of things as a new manager, these are things (on top of everything else!) I wish I'd been told. I probably wouldn't have listened."
 published: true
 ---
 When I first took on an official 'management' type role during my software development career the first book I was given was as part of my training was [The Five Dysfunctions of a Team: A Leadership Fable](https://www.amazon.co.uk/Five-Dysfunctions-Team-Leadership-Lencioni/dp/0787960756/) by Patrick Lencioni. I now realise that I was extraordinarily lucky to start my management journey at the BBC, even though it just felt incredibly scary at the time. 
