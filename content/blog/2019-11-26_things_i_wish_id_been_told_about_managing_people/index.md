@@ -2,13 +2,15 @@
 title: "Things I wish I'd been told about engineering management" 
 date: "2019-11-26T15:22:27.000Z"
 description: "All management is hard, and whilst its been talked about a lot, these are things (on top of everything else!) I wish I'd been told"
-published: false
+published: true
 ---
 When I first took on an official 'management' type role during my software development career the first book I was given was as part of my training was [The Five Dysfunctions of a Team: A Leadership Fable](https://www.amazon.co.uk/Five-Dysfunctions-Team-Leadership-Lencioni/dp/0787960756/) by Patrick Lencioni. I now realise that I was extraordinarily lucky to start my management journey at the BBC, even though it just felt incredibly scary at the time. 
 
 I couldn't agree more with Charity Majors [Engineering Management Pendulum](https://charity.wtf/2019/01/04/engineering-management-the-pendulum-or-the-ladder/) and [A Manager's Bill of Responsibilities (and Rights)](https://charity.wtf/2019/10/30/a-managers-bill-of-responsibilities-and-rights/) articles, maintaining the ability to be hands on is integral to being an effective manager in software development. You will not be able to sustain your effectiveness in a team without 'doing the do', at least periodically. 
 
 I also wanted to reference Will Larson's [An Elegant Puzzle: Systems of Engineering Management](https://www.amazon.co.uk/Elegant-Puzzle-Systems-Engineering-Management-ebook/dp/B07QYCHJ7V), because it is, I feel, the most comprehensive compendiums of current engineering management theory (is that a thing?) going. Well worth a read.
+
+All of the above do a much better job of defining what management is. This list merely serves as 'here some other stuff that isn't always clear when you take on a management role'.
 
 But its important to say none of what I am writing deals with 'Toxic' behaviour. All of these examples are couched in 'people are trying their best with the tools and experience they have' rather than 'my boss is making me work 80 hours a week and I am exhausted' or 'I think racism in the office is acceptable'.
 
@@ -72,4 +74,5 @@ Learning to let people go who are no longer aligned to the values of the organis
 So, you should be the person who personifies the cultures of the organisation the most on your team. You should live and breathe it. Whenever someone is like 'I hate all this company values crap its just management bull shit', your actions should prove them wrong. 
 
 Ultimately you will have to manage these principles 'up'. That is, your team should see you fighting for these principles and upholding the culture that is being sold to them with people outside the team. Often, your manager :). If they don't they will be right to call it out as bull shit.
+
 
