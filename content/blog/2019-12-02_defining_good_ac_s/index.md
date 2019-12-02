@@ -1,8 +1,8 @@
 ---
 title: "Defining good Acceptance Criteria" 
-date: "2019-12-02T22:22:26.000Z"
+date: "2019-12-02T22:45:26.000Z"
 description: "Defining good ACs can be difficult, especially if you are undergoing a 'transformation' and are moving from traditional 'requirements' Lets talk about what makes a good AC."
-published: false
+published: true
 ---
 ## Over and under definition
 One of the most common 'transformation' hurdles that marks the move towards organisation agility is good problem definition. Initially, an organisation might 'over define' a problem. That is, describe in excruciating detail, what exactly should happen, often months in advance. One of the more common mistakes is then to throw this proverbial baby out with the bathwater for the sake of 'digital transformation'. This often leads to scope that is 'under defined'. How do you get the balance right?
