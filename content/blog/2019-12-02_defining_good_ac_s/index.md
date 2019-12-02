@@ -30,9 +30,10 @@ So anyway, here are some of the the things I do during ticket kick off that I be
     - Its important to understand when that data is needed. Does the user need it immediately, can it load in later? 
     - Where is the data coming from? Is it in the app already or do I have to get it from another service? 
     - Why is this data important? Is data the user needs more important than others? 
-2. Be broad about your cross functional requirements. We often focus on the characteristics of a software solution as the be all and end all of CFRs but I have found that thinking wider than this and thinking of the behaviour of the system as whole is helpful.
+2. Be broad about your cross functional requirements. We often focus on the characteristics of a software solution as the be all and end all of CFRs but I have found that thinking wider than this and thinking of the behaviour of the system as whole is helpful. I've picked out some key ones that I find are often forgotten.
     - It can be tempting to not repeat yourself around CFRs. I have never found this to not lead to problems. Repeat yourself. You might want to avoid the detail of each CFR on EVERY ticket... but prioritise the one you care about for each ticket.
-    - Observability. How will you know that the thing is or isn't working?
+    - Observability. How will you know that the thing is or isn't working? This is key to you understanding the experience of problems. You can't know everything upfront, but by thinking about it know you will help save a lot of effort.
+    - Monitoring in production. How will you know if this has been successful and your users are happy?
     - Documentation. Find your team is finding it difficult to keep the internal or external documentation up to date? Don't split it into separate tickets make it integral to the completion of the ticket! 
     - External demonstrations. Do you have to demonstrate your software to your peers or neighbors at any point? Then make it a CFR and show your team you value it! It doesn't matter if it isn't picked to be demoed. Get into the habit of doing it for everything!
     - Other examples based on what you do! Yes I am sure you can think of those things that are based on how your company or team operates :)
