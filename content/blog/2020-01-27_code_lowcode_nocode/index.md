@@ -1,6 +1,6 @@
 ---
 title: "'#code', '#lowcode' and '#nocode'" 
-date: "2019-11-26T15:22:27.000Z"
+date: "2020-01-27T23:45:00.000Z"
 description: "The history of software development is built on abstractions that allow developers to 'do more'. From 'machine code' to Assembly, through C and on to Python and JavaScript. Abstraction is inevitable, but will it be better?"
 published: false
 ---
