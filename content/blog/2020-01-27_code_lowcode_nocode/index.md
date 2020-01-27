@@ -2,7 +2,7 @@
 title: "'#code', '#lowcode' and '#nocode'" 
 date: "2020-01-27T23:45:00.000Z"
 description: "The history of software development is built on abstractions that allow developers to 'do more'. From 'machine code' to Assembly, through C and on to Python and JavaScript. Abstraction is inevitable, but will it be better?"
-published: false
+published: true
 ---
 Recently, I've read a lot of tweets about '#lowcode' or '#nocode' environments that allow you with 'little to no effort' or 'with no developers' generate 'business and user value'. In fact whilst I was writing this my colleagues at TW wrote this:
 
