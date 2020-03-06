@@ -1,8 +1,8 @@
 ---
 title: "'Strategic', 'Tactical' and 'Bad' decisions"
-date: "2020-03-06T23:41:00.000Z"
+date: "2020-03-06T23:55:00.000Z"
 description: "In many businesses the words 'strategic' and 'tactical' have lost all meaning. Can we reframe them to make them useful? Or are they lost forever?"
-published: false
+published: true
 ---
 As part of the navel gazing many businesses are wont to do, one of the things that causes much consternation is the discussing whether something is 'strategic' or 'tactical'. As far as I can tell the most common definitions for these are:
 
@@ -18,7 +18,7 @@ My hope, perhaps in vain, is that people will start calling out decisions for wh
 
 A "tactic", by definition is something you do to achieve your goal. So a "tactical" decision is one that serves the "strategy" you are trying to achieve. It is categorically *not* something that makes your strategy more difficult to achieve, or indeed something that works actively against it.
 
-Business leaders are simultaneously addicted to defining strategies whilst unable to execute on them in a way that delivers value incrementally. So in effort to deliver value, they resort to making decisions that often make the strategy even harder. Often of course, they are not to blame, they are often constricted by delivery that takes months or years to return any value.
+Business leaders are simultaneously addicted to defining strategies whilst unable to execute on them in a way that delivers value incrementally. So in effort to deliver value, they resort to making decisions that make the strategy even harder. Often of course, they are not to blame, they are constricted by delivery that takes months or years to return any value.
 
 Whatever your flavour of agile, one of its main goals is to make sure that at a regular cadence, value is released to users.
 
@@ -29,10 +29,10 @@ Things get difficult in organisations when things take a long time. Money gets s
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you still follow it when it&#39;s hard, then you can claim it as a principle.</p>&mdash; Kent Beck (@KentBeck) <a href="https://twitter.com/KentBeck/status/1105444816458924033?ref_src=twsrc%5Etfw">March 12, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 And I think the same can be said of a strategy. If you stop following a strategy when things get hard then either:
-- Your are unable to deliver on your strategy in a timely manner or,
+- You are are unable to deliver on your strategy in a timely manner or,
 - or, your strategy is no longer appropriate for your context and needs to change.
 
-In my opinion it is FAR better to change your strategy if you are unable to deliver on it, ESPECIALLY if its because you have learned something by trying to deliver it, than it is to pretend that the strategy is fine, and make some decisions that work against it, or don't promote it.
+In my opinion it is FAR better to change your strategy if you are unable to deliver on it, ESPECIALLY if its because you have learned something by trying to deliver it, than it is to pretend that the strategy is fine, and make some decisions that work against it, or don't move the organisation towards it.
 
 So how do these bad things happen? Lots of reasons I guess ... but the most common I have seen? The separation of strategy from delivery by organisational silo. The further away from "delivery" "strategic" decisions are made, often the more likely this is to happen. But this is just my anecdotal experience.
 
