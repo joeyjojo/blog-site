@@ -1,7 +1,7 @@
 ---
-title: "'Strategic', 'Tactical' and 'Bad' decisions
+title: "'Strategic', 'Tactical' and 'Bad' decisions"
 date: "2020-03-06T23:41:00.000Z"
-description: "In many businesses the words 'strategical' and 'tactical' have lost all meaning. Can we reframe them to make them useful? Or are they lost forever?"
+description: "In many businesses the words 'strategic' and 'tactical' have lost all meaning. Can we reframe them to make them useful? Or are they lost forever?"
 published: false
 ---
 As part of the navel gazing many businesses are wont to do, one of the things that causes much consternation is the discussing whether something is 'strategic' or 'tactical'. As far as I can tell the most common definitions for these are:
