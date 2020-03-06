@@ -38,4 +38,4 @@ So how do these bad things happen? Lots of reasons I guess ... but the most comm
 
 So please, if you are reading this, reclaim the word tactical and strategic in your organisation. Improve your delivery so that you can use the word 'tactical' to mean 'the things you do to release value to achieve your strategy' not 'the things we do because things are taking a long time' and reclaim the word strategic to mean the 'the thing we are all working on every day and deliver through our tactics'.
 
-And please, if something is a bad decision. Just call it a bad decisions.
+And please, if something is a bad decision. Just call it a bad decision.
