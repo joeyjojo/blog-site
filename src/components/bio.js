@@ -37,7 +37,6 @@ const Bio = () => {
     <div
       style={{
         display: `flex`,
-        marginBottom: rhythm(2.5),
       }}
     >
       <Image
@@ -53,7 +52,11 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
+      <p
+        style={{
+          margin: 0,
+        }}
+      >
         Written by <strong>{author}</strong> who lives and works in Manchester,
         UK. Currently at{" "}
         <a href={`https://www.thoughtworks.com`}>ThoughtWorks</a>.{` `}

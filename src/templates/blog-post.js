@@ -38,29 +38,42 @@ class BlogPostTemplate extends React.Component {
         >
           {publishedDateRendered}
         </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
-        {lastCommit && (
-          <PostPublishingInformation
-            publishedDate={post.frontmatter.date}
-            lastEditedDate={lastCommit.node.committedDate}
-            lastEditSnippet={lastCommit.node.message}
-            repositoryURL={github.repository.url}
-            relativePath={this.props.pageContext.relativePath}
+        <div style={{
+          maxWidth: "95vw"
+        }}>
+          <main>
+            {" "}
+            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          </main>
+
+          <hr
+            style={{
+              marginBottom: rhythm(1),
+            }}
           />
-        )}
+          {lastCommit && (
+            <PostPublishingInformation
+              publishedDate={post.frontmatter.date}
+              lastEditedDate={lastCommit.node.committedDate}
+              lastEditSnippet={lastCommit.node.message}
+              repositoryURL={github.repository.url}
+              relativePath={this.props.pageContext.relativePath}
+            />
+          )}
 
+          <hr
+            style={{
+              marginBottom: rhythm(1),
+            }}
+          />
+        </div>
+        <Bio />
         <hr
           style={{
+            marginTop: rhythm(1),
             marginBottom: rhythm(1),
           }}
         />
-        <Bio />
-
         <ul
           style={{
             display: `flex`,
