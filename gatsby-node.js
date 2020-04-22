@@ -5,6 +5,8 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const collectionPost = path.resolve("./src/templates/collection.js")
+
   return graphql(
     `
       {
@@ -66,6 +68,18 @@ exports.createPages = ({ graphql, actions }) => {
           repositoryOwner: process.env.REPOSITORY_OWNER,
           previous,
           next,
+        },
+      })
+    })
+
+    const collections = result.data.collections.edges
+
+    collections.forEach((collection, index) => {
+      createPage({
+        path: collection.node.fields.slug,
+        component: collectionPost,
+        context: {
+          slug: collection.node.fields.slug,
         },
       })
     })
