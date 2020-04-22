@@ -28,6 +28,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/collections`,
+        name: `assets`,
+      },
+    },    
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [

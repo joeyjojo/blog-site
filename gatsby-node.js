@@ -8,7 +8,25 @@ exports.createPages = ({ graphql, actions }) => {
   return graphql(
     `
       {
-        allMarkdownRemark(
+        blogs: allMarkdownRemark(
+          filter: { fileAbsolutePath: { glob: "**/content/blog/**/*.md" } }
+          sort: { fields: [frontmatter___date], order: DESC }
+          limit: 1000
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                published
+              }
+            }
+          }
+        }
+        collections: allMarkdownRemark(
+          filter: { fileAbsolutePath: { glob: "**/content/collections/*.md" } }
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {
@@ -32,7 +50,7 @@ exports.createPages = ({ graphql, actions }) => {
     }
 
     // Create blog posts pages.
-    const posts = result.data.allMarkdownRemark.edges
+    const posts = result.data.blogs.edges
 
     posts.forEach((post, index) => {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node
