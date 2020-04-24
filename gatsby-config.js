@@ -13,6 +13,7 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-remark-source-name`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -31,7 +32,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/collections`,
-        name: `assets`,
+        name: `collection`,
       },
     },    
     {
