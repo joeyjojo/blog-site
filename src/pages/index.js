@@ -9,9 +9,10 @@ class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges.filter(({ node }) => {
+    const posts = data.blogPosts.edges.filter(({ node }) => {
       return node.frontmatter.published
     })
+    //const collections = data.collections.edges;
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -55,27 +56,27 @@ class BlogIndex extends React.Component {
 export default BlogIndex
 
 export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
+{
+  site {
+    siteMetadata {
+      title
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            title
-            description
-            published
-          }
+  }
+  blogPosts: allMarkdownRemark(filter: {fields: {sourceName: {eq: "blog"}}}, sort: {fields: [frontmatter___date], order: DESC}) {
+    edges {
+      node {
+        excerpt
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          title
+          description
+          published
         }
       }
     }
   }
+}
 `
