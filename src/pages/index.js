@@ -19,7 +19,7 @@ const useMediaQuery = query => {
 
 function CollectionIndex(props) {
   const { collections } = props
-  const isRowBased = useMediaQuery("(min-width: 799px)")
+  const isRowBased = useMediaQuery("screen only and (min-width: 799px)")
 
   const paddingStyle = {
     paddingLeft: "1vw",
@@ -36,7 +36,7 @@ function CollectionIndex(props) {
   return (
     <div style={componentStyle}>
       <h2 style={{ marginTop: "1vw", marginBottom: "2vw" }}>Collections</h2>
-      <ul>
+      <ul style={{ margin: 0 }}>
         {collections.map(({ node }) => {
           const title = node.frontmatter.title
           return (
@@ -100,7 +100,7 @@ function BlogIndex(props) {
   const collections = data.collections.edges.filter(({ node }) => {
     return node.frontmatter.published
   })
-  const isRowBased = useMediaQuery("(min-width: 799px)")
+  const isRowBased = useMediaQuery("screen only and (min-width: 799px)")
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO title="All posts" />
