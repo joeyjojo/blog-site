@@ -10,17 +10,19 @@ function CollectionIndex(props) {
   return (
     <div
       style={{
-        marginLeft: "1vw",
-        marginRight: "1vw",
+        paddingLeft: "1vw",
+        paddingRight: "1vw",
+        borderRight: "#00000040",
+        borderRightStyle: "solid",
       }}
     >
-      <h2>Collections</h2>
+      <h2 style={{ margin: "1vw" }}>Collections</h2>
       <ul>
         {collections.map(({ node }) => {
           const title = node.frontmatter.title
           return (
             <li key={node.fields.slug}>
-              <h3>
+              <h3 style={{ margin: "1vw" }}>
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
                 </Link>
@@ -37,18 +39,19 @@ function PostsIndex(props) {
   const { posts } = props
   return (
     <div
-    style={{
-      marginLeft: "1vw",
-      marginRight: "1vw",
-    }}    
+      style={{
+        paddingLeft: "1vw",
+        paddingRight: "1vw",
+      }}
     >
-      <h2>Posts</h2>
+      <h2 style={{ margin: "1vw" }}>Posts</h2>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
           <div key={node.fields.slug}>
             <h3
               style={{
+                marginTop: "1vw",
                 marginBottom: rhythm(1 / 4),
               }}
             >
@@ -85,6 +88,7 @@ class BlogIndex extends React.Component {
         <div
           style={{
             display: "flex",
+            marginTop: "5vh"
           }}
         >
           {collections.length > 0 && (
