@@ -1,28 +1,47 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
+const useMediaQuery = query => {
+  const mediaMatch = window.matchMedia(query)
+  const [matches, setMatches] = useState(mediaMatch.matches)
+
+  useEffect(() => {
+    const handler = e => setMatches(e.matches)
+    mediaMatch.addListener(handler)
+    return () => mediaMatch.removeListener(handler)
+  })
+  return matches
+}
+
 function CollectionIndex(props) {
   const { collections } = props
-  return (
-    <div
-      style={{
-        paddingLeft: "1vw",
-        paddingRight: "1vw",
+  const isRowBased = useMediaQuery("(min-width: 799px)")
+
+  const paddingStyle = {
+    paddingLeft: "1vw",
+    paddingRight: "1vw",
+  }
+  const borderStyle = isRowBased
+    ? {
         borderRight: "#00000040",
         borderRightStyle: "solid",
-      }}
-    >
+      }
+    : {}
+
+  const componentStyle = { ...{}, ...paddingStyle, ...borderStyle }
+  return (
+    <div style={componentStyle}>
       <h2 style={{ marginTop: "1vw", marginBottom: "2vw" }}>Collections</h2>
       <ul>
         {collections.map(({ node }) => {
           const title = node.frontmatter.title
           return (
             <li key={node.fields.slug} style={{ listStyle: "none" }}>
-              <h3 style={{ margin: "1vw" }}>
+              <h3 style={{ marginTop: "1vw", marginBottom: rhythm(1 / 4) }}>
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
                 </Link>
@@ -72,33 +91,33 @@ function PostsIndex(props) {
   )
 }
 
-class BlogIndex extends React.Component {
-  render() {
-    const { data } = this.props
-    const siteTitle = data.site.siteMetadata.title
-    const posts = data.blogPosts.edges.filter(({ node }) => {
-      return node.frontmatter.published
-    })
-    const collections = data.collections.edges.filter(({ node }) => {
-      return node.frontmatter.published
-    })
-    return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
-        <div
-          style={{
-            display: "flex",
-            marginTop: "5vh",
-          }}
-        >
-          {collections.length > 0 && (
-            <CollectionIndex collections={collections} />
-          )}
-          {posts.length > 0 && <PostsIndex posts={posts} />}
-        </div>
-      </Layout>
-    )
-  }
+function BlogIndex(props) {
+  const { data } = props
+  const siteTitle = data.site.siteMetadata.title
+  const posts = data.blogPosts.edges.filter(({ node }) => {
+    return node.frontmatter.published
+  })
+  const collections = data.collections.edges.filter(({ node }) => {
+    return node.frontmatter.published
+  })
+  const isRowBased = useMediaQuery("(min-width: 799px)")
+  return (
+    <Layout location={props.location} title={siteTitle}>
+      <SEO title="All posts" />
+      <div
+        style={{
+          display: "flex",
+          flexDirection: isRowBased ? "row" : "column",
+          marginTop: "5vh",
+        }}
+      >
+        {collections.length > 0 && (
+          <CollectionIndex collections={collections} />
+        )}
+        {posts.length > 0 && <PostsIndex posts={posts} />}
+      </div>
+    </Layout>
+  )
 }
 
 export default BlogIndex
