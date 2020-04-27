@@ -19,7 +19,7 @@ function CollectionIndex(props) {
         {collections.map(({ node }) => {
           const title = node.frontmatter.title
           return (
-            <li>
+            <li key={node.fields.slug}>
               <h3>
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
