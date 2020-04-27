@@ -42,17 +42,6 @@ class CollectionPostTemplate extends React.Component {
             {" "}
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
           </main>
-
-          <hr
-            style={{
-              marginBottom: rhythm(1),
-            }}
-          />
-          <hr
-            style={{
-              marginBottom: rhythm(1),
-            }}
-          />
         </div>
         <hr
           style={{
