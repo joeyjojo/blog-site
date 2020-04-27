@@ -6,13 +6,16 @@ import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
 const useMediaQuery = query => {
-  const mediaMatch = window.matchMedia(query)
+  const mediaMatch =
+    typeof window !== "undefined" ? window.matchMedia(query) : []
   const [matches, setMatches] = useState(mediaMatch.matches)
 
   useEffect(() => {
-    const handler = e => setMatches(e.matches)
-    mediaMatch.addListener(handler)
-    return () => mediaMatch.removeListener(handler)
+    if (typeof window !== "undefined") {
+      const handler = e => setMatches(e.matches)
+      mediaMatch.addListener(handler)
+      return () => mediaMatch.removeListener(handler)
+    }
   })
   return matches
 }
