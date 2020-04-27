@@ -1,94 +1,96 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import { Link, graphql } from "gatsby"
+import styled from "styled-components"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
-const useMediaQuery = query => {
-  const mediaMatch =
-    typeof window !== "undefined" ? window.matchMedia(query) : []
-  const [matches, setMatches] = useState(mediaMatch.matches)
+const CollectionIndexContainer = styled.div`
+  padding-left: 1vw;
+  padding-right: 1vw;
 
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      const handler = e => setMatches(e.matches)
-      mediaMatch.addListener(handler)
-      return () => mediaMatch.removeListener(handler)
-    }
-  })
-  return matches
-}
+  @media only screen and (min-width: 799px) {
+    border-right: #00000040;
+    border-right-width: 1px;
+    border-right-style: solid;
+  }
+`
+
+const CollectionIndexH2 = styled.h2`
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+`
+
+const CollectionIndexH3 = styled.h3`
+  margin-top: 1vw;
+  margin-bottom: ${rhythm(1 / 4)};
+`
+
+const CollectionIndexUl = styled.ul`
+  margin: 0;
+`
+
+const CollectionIndexListItem = styled.li`
+  list-style: none;
+`
+
+const CollectionIndexHr = styled.hr`
+  display: block;
+  margin-top: ${rhythm(1)};
+  margin-bottom: ${rhythm(1)};
+
+  @media only screen and (min-width: 799px) {
+    display: none;
+  }
+`
 
 function CollectionIndex(props) {
   const { collections } = props
-  const isRowBased = useMediaQuery("(min-width: 799px)")
 
-  const paddingStyle = {
-    paddingLeft: "1vw",
-    paddingRight: "1vw",
-  }
-  const borderStyle = isRowBased
-    ? {
-        borderRight: "#00000040",
-        borderRightStyle: "solid",
-      }
-    : {}
-
-  const componentStyle = { ...{}, ...paddingStyle, ...borderStyle }
   return (
-    <div style={componentStyle}>
-      <h2 style={{ marginTop: "1vw", marginBottom: "2vw" }}>Collections</h2>
-      <ul style={{ margin: 0 }}>
+    <CollectionIndexContainer>
+      <CollectionIndexH2>Collections</CollectionIndexH2>
+      <CollectionIndexUl>
         {collections.map(({ node }) => {
           const title = node.frontmatter.title
           return (
-            <li key={node.fields.slug} style={{ listStyle: "none" }}>
-              <h3 style={{ marginTop: "1vw", marginBottom: rhythm(1 / 4) }}>
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-            </li>
+            <CollectionIndexListItem key={node.fields.slug}>
+              <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                {title}
+              </Link>
+            </CollectionIndexListItem>
           )
         })}
-      </ul>
-      {isRowBased === false && (
-        <hr
-          style={{
-            marginTop: rhythm(1),
-            marginBottom: rhythm(1),
-          }}
-        />
-      )}
-    </div>
+      </CollectionIndexUl>
+      <CollectionIndexHr />
+    </CollectionIndexContainer>
   )
 }
+
+const PostIndexContainer = styled.div`
+  padding-left: 1vw;
+  padding-right: 1vw;
+`
+
+const PostIndexH2 = CollectionIndexH2
+
+const PostIndexH3 = CollectionIndexH3
 
 function PostsIndex(props) {
   const { posts } = props
   return (
-    <div
-      style={{
-        paddingLeft: "1vw",
-        paddingRight: "1vw",
-      }}
-    >
-      <h2 style={{ marginTop: "1vw", marginBottom: "2vw" }}>Posts</h2>
+    <PostIndexContainer>
+      <PostIndexH2>Posts</PostIndexH2>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
           <div key={node.fields.slug}>
-            <h3
-              style={{
-                marginTop: "1vw",
-                marginBottom: rhythm(1 / 4),
-              }}
-            >
+            <PostIndexH3>
               <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                 {title}
               </Link>
-            </h3>
+            </PostIndexH3>
             <small>{node.frontmatter.date}</small>
             <p
               dangerouslySetInnerHTML={{
@@ -98,9 +100,19 @@ function PostsIndex(props) {
           </div>
         )
       })}
-    </div>
+    </PostIndexContainer>
   )
 }
+
+const BlogIndexContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+
+  @media only screen and (min-width: 799px) {
+    flex-direction: row;
+  }
+`
 
 function BlogIndex(props) {
   const { data } = props
@@ -111,22 +123,15 @@ function BlogIndex(props) {
   const collections = data.collections.edges.filter(({ node }) => {
     return node.frontmatter.published
   })
-  const isRowBased = useMediaQuery("(min-width: 799px)")
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO title="All posts" />
-      <div
-        style={{
-          display: "flex",
-          flexDirection: isRowBased ? "row" : "column",
-          marginTop: "5vh",
-        }}
-      >
+      <BlogIndexContainer>
         {collections.length > 0 && (
           <CollectionIndex collections={collections} />
         )}
         {posts.length > 0 && <PostsIndex posts={posts} />}
-      </div>
+      </BlogIndexContainer>
     </Layout>
   )
 }
