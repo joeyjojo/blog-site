@@ -66,7 +66,7 @@ module.exports = {
       options: {
         name: `@defmyfunc blog`,
         short_name: `@defmyfunc`,
-        start_url: ``,
+        start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
