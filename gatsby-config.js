@@ -81,14 +81,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {        
-        trackingId: "UA-142466951-1",
-        anonymize: true,
-        respectDNT: true,
-      },
-    },
-    {
       resolve: `gatsby-source-graphql`,
       options: {
         fieldName: `github`,
